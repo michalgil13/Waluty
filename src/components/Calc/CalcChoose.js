@@ -1,6 +1,6 @@
 import React from 'react'
 
-//generates two "select" forms to choose currencies for convert
+//generates two "select" forms for choose currencies to convert
 const CalcChoose = (props) => {
     const ratesNames = []
     Object.entries(props.rates).forEach(base => {
