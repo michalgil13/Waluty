@@ -1,5 +1,6 @@
 import React from 'react'
 
+//generates two "select" forms to choose currencies for convert
 const CalcChoose = (props) => {
     const ratesNames = []
     Object.entries(props.rates).forEach(base => {
@@ -13,7 +14,7 @@ const CalcChoose = (props) => {
                 id="selectFrom"
                 className="browser-default" 
                 name="baseFrom"
-                onChange={ props.handleChange}
+                onChange={props.handleChange}
             >
                 <option key="0" value="-----">-----</option>
                 {ratesNames.map(rName => 
