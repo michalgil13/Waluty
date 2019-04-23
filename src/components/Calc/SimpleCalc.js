@@ -1,5 +1,6 @@
 import React from 'react'
 
+//generates a "text" form for enter value to convert
 const SimpleCalc = (props) => {
     const From = (props.valueFrom/props.valueFrom).toFixed(2)
     const To = (props.valueTo/props.valueFrom).toFixed(2)
