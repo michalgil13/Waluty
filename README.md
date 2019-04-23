@@ -8,12 +8,12 @@ The application consists of three modules:
 
 ## Table of contents
 
-* [General info](#General info)
-* [Screenshots](#Screenshots)
-* [Technologies](#Technologies)
-* [Setup](#Setup)
-* [Status](#Status)
-* [Contact](#Contact)
+ * [General info](#General info)
+ * [Screenshots](#Screenshots)
+ * [Technologies](#Technologies)
+ * [Setup](#Setup)
+ * [Status](#Status)
+ * [Contact](#Contact)
 
 ## General info
 Simple React web application project for portfolio.
