@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Line } from 'react-chartjs-2'
 
+//draws a currency changes chart for selected currencies 
 class DrawChart extends Component{
     constructor(props){
         super(props);
