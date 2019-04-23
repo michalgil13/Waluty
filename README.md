@@ -7,6 +7,7 @@ The application consists of three modules:
 3. Chart generator.
 
 ## Table of contents
+
 * [General info](#General info)
 * [Screenshots](#Screenshots)
 * [Technologies](#Technologies)
@@ -34,6 +35,7 @@ Simple React web application project for portfolio.
    Download and unzip repo
    Go to unzipped folder
    Install all the required packages/dependencies using `npm`
+   
    Run app by `npm start`
 
 ## Status
