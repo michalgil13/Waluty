@@ -17,6 +17,7 @@ class Calc extends Component{
         }   
     }
 
+    //fetching the latest data with PLN currency as base
     componentDidMount(){
         fetch("https://api.exchangeratesapi.io/latest?base=PLN")
         .then(data => data.json())
@@ -28,6 +29,7 @@ class Calc extends Component{
         })
     }
 
+    //handles changes of date fields (1, 2) and text field for converting currencies (3)
     handleChange = (e) => {
         const { name, value } = e.target
         if(name === "baseFrom" && value !== "-----"){
