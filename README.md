@@ -35,8 +35,11 @@ Simple React web application project for portfolio.
    Go to unzipped folder
    Install all the required packages/dependencies using `npm`:
    `npm install --save react-router
+   
     npm install materialize-css
+    
     npm install react-materialize
+    
     npm install --save react-chartjs-2 chart.js`
    
    Run app by `npm start`
