@@ -1,0 +1,38 @@
+.App {
+  font-size: 1em;
+  text-align: center;
+}
+
+.App select,
+.App .baseInput,
+.App .dateChange{
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+.App .moduleName{
+  font-weight: bold
+}
+
+@media screen and (max-width: 800px){
+  .App h3{
+    font-size: 1.9em;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .App h3{
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .App select,
+  .App .baseInput,
+  .App .dateChange{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
