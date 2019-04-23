@@ -8,7 +8,6 @@ The application consists of three modules:
 
 ## Table of contents
 
- * [General info](#General info)
  * [Screenshots](#Screenshots)
  * [Technologies](#Technologies)
  * [Setup](#Setup)
