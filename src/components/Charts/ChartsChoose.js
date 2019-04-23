@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from 'react-materialize'
 
+//generates two "date" forms for date changing and button for update these dates on generated chart
 const ChartsChoose = (props) => {
     const ratesNames = []
     Object.entries(props.ratesLatest).forEach(base => {
