@@ -14,6 +14,7 @@ class Currencies extends Component{
         }   
     }
 
+    //fetching the latest data and data from the previous day
     getData(){
         fetch("https://api.exchangeratesapi.io/latest")
         .then(data => data.json())
@@ -43,10 +44,12 @@ class Currencies extends Component{
         })
     }
 
+    //initial fetching data
     componentDidMount(){
         this.getData()
     }
 
+    //handling currency changes and downloading new data
     handleChange = (e) => {
         const { name, value } = e.target
         if(name === "baseName" && value !== "-----"){
