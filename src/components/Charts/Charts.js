@@ -25,7 +25,7 @@ class Charts extends Component{
         }
     }
 
-
+    //fetching all the data from 04.01.1994 to latest available date
     componentDidMount(){
         fetch("https://api.exchangeratesapi.io/latest")
         .then(data => data.json())
@@ -52,6 +52,7 @@ class Charts extends Component{
         })
     }
 
+    //generates the tables of data to draw a chart
     getLabels(){
         const USD = []
         const CHF = []
@@ -100,6 +101,7 @@ class Charts extends Component{
         })
     }
 
+    //handles all input fields in ChartsChoose component
     handleChange(e){
         const { name, value, type } = e.target
         if(type === "date"){
