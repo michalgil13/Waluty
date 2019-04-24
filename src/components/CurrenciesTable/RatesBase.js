@@ -1,5 +1,6 @@
 import React from 'react'
 
+//generates "select" form to choose currency
 const RatesBase = (props) => {
     const ratesNames = []
     Object.entries(props.rates[0]).forEach(base => {
