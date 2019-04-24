@@ -2,7 +2,7 @@
  An application written in React for fetching data on exchange rates from the European Central Bank API (33 currencies).
 
 The application consists of three modules:
-1. Exchange rates table with.
+1. Exchange rates table.
 2. Currency calculator.
 3. Chart generator.
 
