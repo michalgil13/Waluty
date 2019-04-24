@@ -1,6 +1,7 @@
 import React from 'react'
 import { Table } from 'react-materialize'
 
+//draws table of exchange rates
 const RatesList = (props) => {
     const ratesToday = Object.entries(props.rates[0])
     const ratesYesterday = Object.entries(props.rates[1])
@@ -50,7 +51,7 @@ const RatesList = (props) => {
                                 : (todRate[1] < todRate[2] ?
                                 <img alt="DOWN" src="/images/ArrDown.png"/>
                                 :
-                                <img alt="DOWN" src="/images/Equal2.png"/>)
+                                <img alt="EQUAL" src="/images/Equal2.png"/>)
                                 } 
                         </td>
                     </tr>
